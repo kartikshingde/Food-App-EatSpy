@@ -48,7 +48,7 @@ const Body = () => {
   const { loggedUser, setUserName } = useContext(UserContext);
 
   return listOfRestaurants.length === 0 ? (
-    <Shimmer />
+    <Shimmer/>
   ) : (
     <div className="body px-4 sm:px-6 md:px-8">
       <div className="filter flex flex-col md:flex-row md:flex-wrap justify-between items-start gap-4 my-4">

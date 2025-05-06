@@ -13,7 +13,7 @@ const RestaurantMenu = () => {
   const [showIndex, setShowIndex] = useState(0);
 
   // console.log(resInfo);
-  if (resInfo === null) return <h1>Loading...</h1>;
+  if (resInfo === null) return <Shimmer/>;
 
   if (resInfo === null) return <Shimmer />;
   // not used in ternary operator because, we have use here before destructuring as we set resInfo = null Initially
